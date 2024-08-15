@@ -8,4 +8,12 @@ mv one.txt ~/Downloads/
 cd ~/Downloads
 cp one.txt copy.txt
 d ~/Omar
-nano two.txt
+nano two.txt "Omar"
+Ctrl + o
+Ctrl + x
+nano three.txt "1-hello OSC\n2-hello OSC\n3-hello OSC\n4-hello OSC\n5-hello OSC\n6-hello OSC\n7-hello OSC\n8-hello OSC"
+Ctrl + o
+Ctrl + x
+mv three.txt hello.txt
+rm four.txt
+rm -r BAD
