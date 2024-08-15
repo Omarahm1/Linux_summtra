@@ -4,7 +4,6 @@ touch one.txt two.txt there.txt four.txt
 mkdir BAD
 touch BAD/bad.txt
 mv one.txt ~/Downlaods/
-mv one.txt ~/Downloads/
 cd ~/Downloads
 cp one.txt copy.txt
 d ~/Omar
