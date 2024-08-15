@@ -6,7 +6,7 @@ touch BAD/bad.txt
 mv one.txt ~/Downlaods/
 cd ~/Downloads
 cp one.txt copy.txt
-d ~/Omar
+cd ~/Omar
 nano two.txt "Omar"
 Ctrl + o
 Ctrl + x
