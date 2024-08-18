@@ -1,0 +1,16 @@
+git config --global user.name "omar"
+git config --global user.email "omar2756389@gmail.com"
+git clone https://github.com/Omarahm1/Linux_summtra
+mkdir 
+task-2
+cd task-2
+touch greetings.txt
+echo "hello world" >> greetings.txt
+git commit -a -m "added greetings"
+git checkout -b intro
+echo "I love Git" >> greetings.txt
+git commit -a -m "added I love Git"
+git switch main
+git merge intro
+git tag -a "v1"
+git push
