@@ -25,8 +25,8 @@ rm link_data.csv
 cd ~/project_files
 echo "summary start" > summary.txt
 date >> summary.txt
-cat summary.txt | wc -w | tee -a summary.txt
+cat summary.txt | wc -l | tee -a summary.txt
 cat reports1.md | wc -w
 cat ~/project_files/logs/system.log | wc -c >> ~/project_files/summary.txt
-find ~/project_files -type f -o -type d | wc -l >> summary.txt 
+find ~/project_files -type f -o -type d | wc -l >> summary.txt
 cat summary.txt
