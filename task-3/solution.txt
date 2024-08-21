@@ -12,7 +12,7 @@ nano ~/project_files/reports/reports1.md
 cd ~/project_files/logs
 tar -cf logs_backup.tar *
 mv logs_backup.tar ~/project_files
-tar -xf logs_backup.tar -C  ~/project_files/logs
+tar -xf ~/project_files/logs_backup.tar -C  ~/project_files/logs
 find ~ -name "*.md"
 find ~/project_files -name "*.log"
 find ~/project_files -name "file1.pdf"
