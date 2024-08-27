@@ -1,7 +1,7 @@
 #!/bin/bash
 
 read -p "Enter the directory: " directory
-if [ ! -d $"directory" ]
+if [ ! -d "$directory" ]
 	then
 		echo "$directory is not a directory"
 		exit 1
