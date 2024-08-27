@@ -1,6 +1,11 @@
 #!/bin/bash
 
-read -p "Enter the directory: " directory
+if [ $# -eq 0 ]; then
+	read -p "Enter the directory: " directory
+else
+	directory=$1
+fi
+
 if [ ! -d "$directory" ]
 	then
 		echo "$directory is not a directory"
